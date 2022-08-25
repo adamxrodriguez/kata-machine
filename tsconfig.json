@@ -6,13 +6,15 @@
         "strictNullChecks": true,
         "resolveJsonModule": true,
         "noImplicitReturns": true,
+        "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
+        "moduleResolution": "node",
         "target": "es6",
         "module": "commonjs",
         "baseUrl": "src",
         "paths": {
             "@code/*": [
-                "day2/*"
+                "day1/*"
             ]
         }
     },
