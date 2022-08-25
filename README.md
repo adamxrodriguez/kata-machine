@@ -1,10 +1,7 @@
-
-### WARNING
 I have just started to add algorithms, so the number of supported algorithms is
 limited at the moment, but will grow fairly quick.
 
-### WARNING
-OUT OF DATE.  We have quite a few more.  need to update
+
 ### Supported Algorithm
 * Insertion sort
 * Merge sort
@@ -48,7 +45,7 @@ create a day of katas, this will use the list in the `ligma.config.js`.
 yarn generate
 ```
 
-this will progressively create folders named
+this will progressively create folders named (but not needed)
 
 ```
 src/day1
@@ -65,8 +62,4 @@ for testing each day.
 yarn test
 ```
 
-
-### Help wanted
-A simple way to specify test, thinking something like `tests.json` and `cat
-test.json 2> /dev/null` to specify the tests to run.  tests.json wouldn't be
-committed.
+Have a great day
